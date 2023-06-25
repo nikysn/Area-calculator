@@ -8,5 +8,6 @@ namespace Area_calculator
 {
     public interface IShape
     {
+        double CalculateArea();
     }
 }

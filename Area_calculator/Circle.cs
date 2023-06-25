@@ -8,15 +8,15 @@ namespace Area_calculator
 {
     public class Circle : IShape
     {
-        private double _radius;
-        Circle(double radius)
+        private double radius;
+        public Circle(double radius)
         {
-            _radius = radius;
+            this.radius = radius;
         }
 
         public double CalculateArea()
         {
-            double area = Math.PI * Math.Pow(_radius, 2);
+            double area = Math.PI * Math.Pow(radius, 2);
             return area;
         }
     }
